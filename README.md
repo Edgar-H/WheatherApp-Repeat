@@ -1,7 +1,3 @@
-# Getting Started with Create React App
+# WheatherApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app|).
-
-## Available Scripts
-
-In the project directory, you can run:
+Este proyecto es un repaso de React y la previsualización se puede ver [aqui.](https://wheatherapp-repeat.netlify.app/).

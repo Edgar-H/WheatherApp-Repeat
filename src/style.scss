@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  background: linear-gradient(60deg, #2193b0, #6dd5ed);
+  height: 100vh;
+  div {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+}
+
+.location {
+  padding-top: 20px;
+  p {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.date-info {
+  font-size: 20px;
+  margin: 5px;
+}
+.city {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.icon-weather {
+  padding: 10px 0;
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.svg-inline--fa {
+  fill: #fff;
+}
+
+.tem-btn {
+  display: flex;
+  justify-content: center;
+
+  p {
+    text-align: center;
+    width: 100%;
+    font-size: 70px;
+    font-weight: 900;
+  }
+  button {
+    padding: 6px 28px;
+    border: none;
+    background: rgba(29, 216, 79, 0.856);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.description {
+  padding-top: 20px;
+  p {
+    width: 100%;
+    text-align: center;
+    padding: 3px 0;
+  }
+}
+
+.error {
+  height: 100vh;
+  width: 100%;
+  background: #dddddd;
+  position: absolute;
+  z-index: 999;
+}
